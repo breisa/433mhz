@@ -48,11 +48,11 @@ If your Pi does not have a display, it is possible to execute this step on anoth
 ```
 to display the recorded signal in an interactive window using mathplotlib.
 
-![plot of the recording](https://placehold.co/600x400)
+![plot of the recording](./images/signal1.png)
 
 It is possible to zoom into the plot and check whether the recording was successful, how the signal is encoded and if it actually repeats itself.
 
-![plot of the recording](https://placehold.co/600x400)
+![plot of the recording](./images/signal2.png)
 
 ### Replaying
 To replay the signal stored in the file ```signal.json``` simply run
