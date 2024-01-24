@@ -59,3 +59,8 @@ To replay the signal stored in the file ```signal.json``` simply run
 ```
 ./433.py --send 23 signal.json
 ```
+
+## Other
+Similiar tools for working with 433mhz signals, often try to decode/encode the signals. In contrast, this tool simply records and replays the digital signals that are actually sent. This allows this tool to work with arbitrary codes/devices as long as the used codes are static and the protocol is not interactive.
+
+To increase the range of the cheap transmitter modules, it is possible to add antennas to them. For example, a simple antenna in the form of a 17cm long wire works great.
