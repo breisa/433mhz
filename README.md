@@ -6,7 +6,7 @@ This allows to clone key fobs, garage door openers and remote controls that send
 These kind of devices typically sends a static repeating code when their buttons are pressed.
 Once you recorded a code with `--record`, you can view it using `--plot` and replay it using `--send`.
 
-
+Similiar tools for working with 433mhz signals, often try to decode/encode the signals. In contrast, this tool simply records and replays the digital signals that are actually sent. This allows this tool to work with arbitrary codes/devices as long as the used codes are static and the protocol is not interactive.
 
 ## How to use it?
 ```
@@ -60,7 +60,5 @@ To replay the signal stored in the file ```signal.json``` simply run
 ./433.py --send 23 signal.json
 ```
 
-## Other
-Similiar tools for working with 433mhz signals, often try to decode/encode the signals. In contrast, this tool simply records and replays the digital signals that are actually sent. This allows this tool to work with arbitrary codes/devices as long as the used codes are static and the protocol is not interactive.
-
-To increase the range of the cheap transmitter modules, it is possible to add antennas to them. For example, a simple antenna in the form of a 17cm long wire works great.
+## Range
+To increase the range of the cheap transmitter modules, it is possible to add antennas to them. For me, a simple antenna in the form of a 17cm long wire worked great.
